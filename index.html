@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="barra">
+        <h1 style="color: white;">LOGO</h1>
+        <nav>
+            <a href="#inicio" class="link-inicio">Inicio</a>
+            <a href="#galeria" class="link-inicio">Galeria</a>
+            <a href="#contacto" class="link-inicio">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <br>
+        <img src="images/person.png" alt="Imagen de mujer con una camara" class="imagen-mujer" style="padding: 2rem;">
+        
+        <h2>Hello! I'm a Photographer</h2>
+        
+        <a href="#galeria">Here's some of my Work</a>
+    </section>
+
+    <section id="galeria">
+        <div class="imagen" data-alt="Libros">
+            <img src="images/libro.jpg" alt="Libros" title="Libros">
+        </div>
+        <div class="imagen" data-alt="Gotas">
+            <img src="images/gotas.jpg" alt="Gotas" title="Gotas">
+        </div>
+        <div class="imagen" data-alt="Playa">
+            <img src="images/playa.jpg" alt="Playa" title="Playa">
+        </div>
+        <div class="imagen" data-alt="Laptop">
+            <img src="images/laptop.jpg" alt="Laptop" title="Laptop">
+        </div>
+        <div class="imagen" data-alt="Flores">
+            <img src="images/flores.jpg" alt="Flores" title="Flores">
+        </div>
+        <div class="imagen" data-alt="Bosque">
+            <img src="images/bosque.jpg" alt="Bosque" title="Bosque">
+        </div>
+        <div class="imagen" data-alt="Montañas">
+            <img src="images/montañas.jpg" alt="Montañas" title="Montañas">
+        </div>
+
+    </section>
+    <br>
+    <section id="contacto">
+            <h2>Contact Me!</h2>
+        <form action="">
+            <div>
+            <p>Nombre</p>
+            <input type="text">
+            </div>
+            <br>
+            <div>
+            <p>Correo</p>
+            <input type="text">
+            </div>
+            <br>
+            <div>
+            <p>Mensaje</p>
+            <input type="text">
+            </div>
+            <br>
+            <button id="btn">Enviar!</button>
+        </form>
+        <br>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
