@@ -103,12 +103,16 @@ a:hover {
 }
 
 /* contacto */
-input {
+input, textarea {
     border-style: solid;
     border-color: #c97d28;
     border-radius: 0.4rem;
-    width: 20rem;
+    width: 30rem;
     padding: 0.5rem;
+}
+
+textarea {
+    height: 12rem;
 }
 
 button {
