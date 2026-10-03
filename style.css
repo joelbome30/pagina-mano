@@ -32,15 +32,16 @@ h2 {
     color: #c97d28;
 }
 .link-inicio {
+    display: inline-block;
     padding: 1rem;
-    transition: 0.25s;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
     color: white;
     text-decoration: none;
 }
 .link-inicio:hover{
-    transition: 0.25s;
-    color: red;
-    text-decoration: none;
+    border-color: white;
+    color: white;
 }
 
 a {
@@ -53,16 +54,6 @@ a:hover {
     transition: 0.25s;
     color: red;
     text-decoration: none;
-}
-
-.link-inicio {
-    transition: 0.3s;
-}
-
-.link-inicio:hover{
-    border-style: solid;
-    color: white;
-    transition: 0.3s;
 }
 
 /* galeria */
